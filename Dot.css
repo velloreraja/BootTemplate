@@ -7,7 +7,10 @@ carousel part
     margin-bottom: 5rem;
     margin-top: 5rem;
 } */
-
+html{
+    scroll-behavior: smooth;
+  scroll-padding-top: var(--scroll-padding,50px);
+}
 .carousel-inner > .carousel-item > img {
     height: 85vh;
     width: 100% !important;
